@@ -11,4 +11,3 @@
 <h2>Versioning:</h2>
 <p align="left">
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer" title="GIT"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="GIT" width="40" height="40"/> </a>
-</p>
