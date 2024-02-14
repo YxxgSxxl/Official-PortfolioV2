@@ -135,7 +135,15 @@ main {
     padding: 2em;
 }
 
+/* Home Section */
+section.home-container {
+    height: 100vh;
+}
 
+/* Contact Section */
+section.about-container {
+    height: 100vh;
+}
 
 
 /* Footer */

@@ -33,6 +33,14 @@
                 <p>Web Developer</p>
             </div>
         </section>
+        <section class="about-container">
+            <div class="about-content">
+                <h2 id="about">À propos</h2>
+                <p>Je suis un développeur web basé à Mulhouse, France. J'ai une passion pour la création de sites web
+                    et la programmation. J'ai une expérience dans le développement front-end et back-end, ainsi que dans la
+                    conception de sites web.</p>
+            </div>
+        </section>
     </main>
     <h1>bbwbw</h1>
 
