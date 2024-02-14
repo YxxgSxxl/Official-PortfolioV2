@@ -59,6 +59,10 @@ button {
     outline: inherit;
 }
 
+section {
+    min-width: 100vh;
+}
+
 /* Header */
 .header-logo img {
     width: 50px;
@@ -130,6 +134,8 @@ main {
     flex-direction: column;
     padding: 2em;
 }
+
+
 
 
 /* Footer */
