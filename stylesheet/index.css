@@ -155,8 +155,9 @@ section.about-container {
 footer {
     background-color: var(--secondary-bgcolor);
     padding: 1em 2em 1em 2em;
+    gap: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -164,6 +165,20 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+footer small {
+    font-size: 0.6em;
+    transform: translateX(0px);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .footer-left img {
@@ -186,9 +201,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
     display: block;
-    margin: auto;
+    margin: 0;
 }
 
 .footer-right a {
@@ -197,11 +212,34 @@ footer {
     height: fit-content;
 }
 
+.footer-cr {
+    color: #6d8792;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
 
 /* FOR TABLET */
 @media screen and (max-width: 950px) {
     li a {
         font-size: 70%;
+    }
+
+    /* Footer */
+    footer {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer small {
+        font-size: 0.6em;
+        transform: translateX(-18px);
     }
 }
 
@@ -298,17 +336,36 @@ footer {
     /* Footer */
     footer {
         background-color: var(--secondary-bgcolor);
-        padding: 2em 4em 2em 4em;
-        font-size: 1em;
+        padding: 1em 2em 1em 2em;
+        gap: 1rem;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
+    }
+
+    footer small {
+        font-size: 0.8em;
+        transform: translateX(10px);
+    }
+    
+    
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-left {
+        margin: 2rem 0 0 0;
     }
 
     .footer-left img {
@@ -332,10 +389,14 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 1em;
-        margin: 0;
+        margin: 2rem 0 0 0;
     }
 
-
-    /* Footer */
-
+    .footer-cr {
+        color: #6d8792;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+    }
 }

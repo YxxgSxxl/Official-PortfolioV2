@@ -42,7 +42,6 @@
             </div>
         </section>
     </main>
-    <h1>bbwbw</h1>
 
     <!-- Including the Footer Component -->
     <?php include 'components/footer.php' ?>
