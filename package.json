@@ -4,6 +4,7 @@
   "description": "New version of my Official Portfolio ✨",
   "version": "2.0.0",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
