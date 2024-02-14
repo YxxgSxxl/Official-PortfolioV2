@@ -22,8 +22,16 @@
 </head>
 
 <body>
+    <!-- Including the Header Component -->
     <?php include 'components/header.php' ?>
-    <h1>In devlopment...</h1>
+
+    <!-- Main Content -->
+    <main>
+        <h1>In devlopment...</h1>
+    </main>
+
+    <!-- Including the Footer Component -->
+    <?php include 'components/footer.php' ?>
 
     <script src="js/index.js"></script>
 </body>

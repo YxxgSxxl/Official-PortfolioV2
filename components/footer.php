@@ -1,0 +1,15 @@
+<footer>
+    <div class="footer-left">
+        <img src="./img/logos/alex-eckes-header-logoV2-w.png" alt="Logo">
+    </div>
+    <div class="footer-links">
+        <a href="#">Mentions Légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Sitemap</a>
+    </div>
+    <div class="footer-right">
+        <a href="https://github.com"><img src="github.svg" alt="GitHub"></a>
+        <a href="https://linkedin.com"><img src="linkedin.svg" alt="LinkedIn"></a>
+    </div>
+    
+</footer>

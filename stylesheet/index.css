@@ -1,3 +1,4 @@
+/* Variables Init */
 :root {
     --primary-bgcolor: #0f191e;
     --secondary-bgcolor: #324046;
@@ -8,7 +9,7 @@
     --secondary-selection: #3c4c54;
 }
 
-/* Text select */
+/* Text selection */
 ::-moz-selection {
     color: var(--primary-selection);
     background: var(--secondary-selection);
@@ -46,7 +47,6 @@ header {
     height: fit-content;
     padding: 1em 1em 1em 1em;
 }
-
 
 /* Header */
 .header-logo img {
@@ -111,6 +111,27 @@ header {
 .no-visibility {
     display: none;
 }
+
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--secondary-bgcolor);
+    padding: 1em;
+    text-align: center;
+}
+
+.footer-left img {
+    width: 50px;
+}
+
 
 /* FOR TABLET */
 @media screen and (max-width: 950px) {
