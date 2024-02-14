@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    <?php include 'components/header.php' ?>
     <h1>In devlopment...</h1>
 
     <script src="js/index.js"></script>

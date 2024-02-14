@@ -38,3 +38,145 @@ body {
     color: var(--primary-textcolor);
 }
 
+header {
+    background-color: #324046;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 1em 1em 1em 1em;
+}
+
+
+/* Header */
+.header-logo img {
+    width: 50px;
+}
+
+.header-burgericon {
+    cursor: pointer;
+}
+
+.header-menu {
+    background-color: #324046;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-block: 6rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-width: 99vw;
+    transform: translateX(-100%);
+    transition: ease 0.6s;
+}
+
+.header-menu ul {
+    list-style-type: none
+}
+
+.header-menu li {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.header-menu li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c6e2ff;
+    text-decoration-thickness: 0.1em;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+.header-menuexit {
+    cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+/* Make elements visible */
+.header-open {
+    transform: translateX(0);
+}
+
+/* Make elements invisible */
+.no-visibility {
+    display: none;
+}
+
+/* FOR TABLET */
+@media screen and (max-width: 950px) {
+    li a {
+        font-size: 70%;
+    }
+}
+
+/* FOR DESKTOP */
+@media screen and (min-width: 768px) {
+    h1 {
+        margin-top: 2em;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    header {
+        padding: 1em 3em 1em 3em;
+    }
+
+    header ul {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    header button.header-burgericon {
+        display: none;
+    }
+
+    .emoji {
+        width: fit-content;
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-menu {
+        width: auto;
+        height: auto;
+        position: relative;
+        min-width: auto;
+
+        transform: translateX(0);
+        padding-block: 0;
+
+        align-items: center;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .header-menu ul {
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        gap: 3rem;
+    }
+
+    .header-menu li {
+        margin-bottom: 0;
+    }
+
+    .header-menu button.header-menuexit {
+        display: none;
+    }
+}
