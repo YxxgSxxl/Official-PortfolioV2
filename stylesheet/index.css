@@ -157,7 +157,7 @@ footer {
     padding: 1em 2em 1em 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
@@ -167,13 +167,14 @@ footer {
 }
 
 .footer-left img {
-    width: 80px;
+    width: 60px;
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    font-size: 0.8em;
 }
 
 .footer-links a {
@@ -186,6 +187,14 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 1em;
+    display: block;
+    margin: auto;
+}
+
+.footer-right a {
+    text-decoration: none;
+    align-items: center;
+    height: fit-content;
 }
 
 
@@ -310,6 +319,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 1em;
+        font-size: 1em;
     }
 
     .footer-links a {
@@ -322,6 +332,7 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 1em;
+        margin: 0;
     }
 
 
