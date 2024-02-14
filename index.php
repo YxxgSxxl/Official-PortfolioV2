@@ -29,16 +29,31 @@
     <main>
         <section class="home-container">
             <div class="home-content">
-                <h1>Hi, I'm Alex Eckes</h1>
-                <p>Web Developer</p>
+                <h1>Enchanté, moi c'est Alex.</h1>
+                <p>
+                    Un développeur amateur et passionné. Actuellement en BUT MMI à l'Université de Haute Alsace de
+                    Mulhouse.
+                </p>
             </div>
         </section>
         <section class="about-container">
             <div class="about-content">
-                <h2 id="about">À propos</h2>
-                <p>Je suis un développeur web basé à Mulhouse, France. J'ai une passion pour la création de sites web
-                    et la programmation. J'ai une expérience dans le développement front-end et back-end, ainsi que dans la
+                <h2 id="about">À propos de moi</h2>
+                <p>Je suis un développeur web basé à Mulhouse, France. Je suis passionné par l'informatique, le web et
+                    la musique. J'ai une expérience dans le développement front-end et back-end, ainsi que dans
+                    la
                     conception de sites web.</p>
+                <p>
+                    Mon cursus en BUT MMI m'immerge dans le digital, m'aidant à développer des compétences variées allant du
+                    développement web à
+                    la
+                    création multimédia. Je cherche à fusionner ma passion pour la
+                    musique
+                    avec la technologie pour créer des expériences numériques captivantes. En quête de projets
+                    innovants, je
+                    suis prêt à explorer les nouvelles frontières du multimédia. Discutons de nos passions et
+                    collaborons !
+                </p>
             </div>
         </section>
     </main>
