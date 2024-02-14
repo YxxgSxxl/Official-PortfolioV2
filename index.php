@@ -2,8 +2,25 @@
 <html lang="fr">
 
 <head>
+    <!-- Metas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Copyright" content="Alex-Eckes">
+
+    <meta name="og:type" content="website">
+    <meta name="og:site_name" content="Alex-Eckes">
+    <meta name="og:description" content="Le Portfolio d'un passionné">
+
+    <meta name="type" content="website">
+    <meta name="site_name" content="Alex-Eckes">
+    <meta name="description" content="Le Portfolio d'un passionné">
+
+    <meta name="keywords" content="alex, eckes, dev, frontend, backend, developer, web">
+    <meta name="subject" content="Le Portfolio d'un passionné">
+
+    <meta name="theme-color" content="#324046">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://alexeckes.com/favicon/apple-touch-icon.png">
@@ -15,6 +32,9 @@
     <meta name="msapplication-TileColor" content="#22003f">
     <meta name="msapplication-config" content="https://alexeckes.com/favicon/browserconfig.xml">
     <meta name="theme-color" content="#000000">
+
+    <!-- Canonical Link -->
+    <link rel="Canonical" href="https://alexeckes.com" />
 
     <title>Alex ECKES</title>
     <link rel="stylesheet" href="stylesheet/index.css">
@@ -44,7 +64,8 @@
                     la
                     conception de sites web.</p>
                 <p>
-                    Mon cursus en BUT MMI m'immerge dans le digital, m'aidant à développer des compétences variées allant du
+                    Mon cursus en BUT MMI m'immerge dans le digital, m'aidant à développer des compétences variées
+                    allant du
                     développement web à
                     la
                     création multimédia. Je cherche à fusionner ma passion pour la
