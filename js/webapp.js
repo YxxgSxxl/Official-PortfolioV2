@@ -1,4 +1,4 @@
-import express from '/node_modules/express'
+import express from '/node_modules/express';
 
 // Create the server
 const app = express();
