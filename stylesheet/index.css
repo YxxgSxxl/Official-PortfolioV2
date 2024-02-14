@@ -1,0 +1,40 @@
+:root {
+    --primary-bgcolor: #0f191e;
+    --secondary-bgcolor: #324046;
+
+    --primary-textcolor: #f2f2f2;
+
+    --primary-selection: #ffffff;
+    --secondary-selection: #3c4c54;
+}
+
+/* Text select */
+::-moz-selection {
+    color: var(--primary-selection);
+    background: var(--secondary-selection);
+}
+
+::selection {
+    color: var(--primary-selection);
+    background: var(--secondary-selection);
+}
+
+/* Page Init */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Michroma', Arial, Helvetica, sans-serif;
+    background-color: var(--primary-bgcolor);
+    color: var(--primary-textcolor);
+}
+
