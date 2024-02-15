@@ -41,7 +41,7 @@ class Router
             } else {
                 $this->ctlPage->home();
             }
-        } catch (Exception $e) {                                                      // Page d'erreur
+        } catch (Exception $e) {
             $this->ctlPage->  error($e->getMessage()); 
         }
     }

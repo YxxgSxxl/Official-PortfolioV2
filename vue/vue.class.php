@@ -5,7 +5,7 @@ class Vue
 
     public function __construct($action) {
         $this->fichierVue = "vue/vue".$action.".php";
-      }
+    }
 
       public function afficher($data) {
         $title = TITREONGLET;

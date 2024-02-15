@@ -29,10 +29,7 @@
 
     <!-- Main Content -->
     <main>
-        <?php
-        $vue = new Vue($action);
-        $vue->__construct($action);
-        ?>
+        <?= $contenu ?>
     </main>
 
     <!-- Including the Footer Component -->
