@@ -26,7 +26,7 @@
     <!-- Main Content -->
     <main>
         <section class="error-container">
-            <h1>ERROR</h1>
+            <?php   echo '<div class="erreur">Erreur : ' . $erreur . '</div>'; ?>
         </section>
     </main>
 
