@@ -4,11 +4,11 @@ require_once "./vue/vue.class.php";
 class ctlLegals{
     private $legals;
     
-    public function __construct() {
-        $this->legals = new ctlLegals();
-    }
+
     public function legals()
     {
-        require '../pages/legals.php';
+        $legals = $this->legals->legals();
+        $vue = new vue("Legals");
+        $vue->afficher(array("legals" => $legals));
     }
 }

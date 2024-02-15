@@ -19,7 +19,7 @@ class Vue
     
         $contenu = ob_get_clean();
         
-        $footer = require "components/footer.php";
+        $footer = require "./components/footer.php";
       
         require "gabarit.php";
       }
