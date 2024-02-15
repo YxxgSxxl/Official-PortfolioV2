@@ -21,8 +21,7 @@
     <link href=' https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
-
+<body style="position: static;">
     <!-- Main Content -->
     <main>
         <section class="error-container">

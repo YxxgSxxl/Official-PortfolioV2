@@ -8,7 +8,7 @@ class ctlLegals{
     public function legals()
     {
         $legals = $this->legals->legals();
-        $vue = new vue("Legals");
-        $vue->afficher(array("legals" => $legals));
+        $legals = new vue("Legals");
+        $legals->afficher(array("legals" => $legals));
     }
 }
