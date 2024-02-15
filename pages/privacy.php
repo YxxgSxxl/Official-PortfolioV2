@@ -17,21 +17,23 @@
     <meta name="theme-color" content="#000000">
 
     <title>Alex ECKES</title>
-    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="../stylesheet/index.css">
     <link href=' https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <!-- Including the Header Component -->
-    <?php include 'components/header.php' ?>
+    <?php include '../components/header.php' ?>
 
     <!-- Main Content -->
     <main>
-        
+        <section class="privacy-container">
+            <h1>Soon...</h1>
+        </section>
     </main>
 
     <!-- Including the Footer Component -->
-    <?php include 'components/footer.php' ?>
+    <?php include '../components/footer.php' ?>
 
     <script src="js/index.js"></script>
 </body>

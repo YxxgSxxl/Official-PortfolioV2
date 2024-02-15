@@ -33,7 +33,7 @@
     <!-- Including the Footer Component -->
     <?php include 'components/footer.php' ?>
 
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 <header>
     <div class="header-logo">
         <a href="https://alexeckes.com/">
-            <img loading="lazy" src="/img/logos/alex-eckes-header-logoV2-w.png" alt="Logo Alex Eckes" />
+            <img loading="lazy" src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo Alex Eckes" />
         </a>
     </div>
 

@@ -27,8 +27,8 @@
 
     <!-- Main Content -->
     <main>
-        <section class="legals-container">
-            <h1>Soon...</h1>
+        <section class="error-container">
+            <h1>ERROR</h1>
         </section>
     </main>
 

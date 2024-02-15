@@ -151,6 +151,26 @@ section.about-container {
     height: 100vh;
 }
 
+/* Projects Section */
+section.projects-container {
+    height: 100vh;
+}
+
+/* Contact Section */
+section.contact-container {
+    height: 100vh;
+}
+
+/* legals Section */
+section.legals-container {
+    height: 100vh;
+}
+
+/* privacy Section */
+section.privacy-container {
+    height: 100vh;
+}
+
 
 /* Footer */
 footer {
