@@ -16,7 +16,7 @@
     <meta name="msapplication-config" content="https://alexeckes.com/favicon/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <title>Alex ECKES</title>
+    <title><?=$title?></title>
     <link rel="stylesheet" href="stylesheet/index.css">
     <link href=' https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 </head>
@@ -32,6 +32,7 @@
 
     <!-- Including the Footer Component -->
     <?php include 'components/footer.php' ?>
+
 
     <script src="../js/index.js"></script>
 </body>

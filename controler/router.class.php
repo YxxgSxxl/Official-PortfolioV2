@@ -1,19 +1,21 @@
 <?php
-// require "config/config.php";
+require "config/config.php";
 
-require_once "ctl.projects.php";
-require_once "ctl.legals.php";
-require_once "ctl.privacy.php";
+require_once "ctlPage.php";
+require_once "ctlProjects.php";
+require_once "ctlLegals.php";
+require_once "ctlPrivacy.php";
 
 class Router
 {
-    private $projects, $legals, $privacy;
+    private $ctlPage, $projects, $legals, $privacy;
 
     public function __construct()
     {
-        $this->projects = new Projects();
-        $this->legals = new Legals();
-        $this->privacy = new Privacy();
+        $this->ctlPage = new ctlPage();
+        $this->projects = new ctlProjects();
+        $this->legals = new ctlLegals();
+        $this->privacy = new ctlPrivacy();
     }
 
     public function routerRequest()
@@ -37,10 +39,10 @@ class Router
                         throw new Exception("Unknown Error");
                 }
             } else {
-                header('Location: https://alexeckes.com/pages/home.php');
+                $this->ctlPage->home();
             }
         } catch (Exception $e) {                                                      // Page d'erreur
-            $this->error = $e->getMessage();
+            $this->ctlPage->  error($e->getMessage()); 
         }
     }
 }

@@ -1,5 +1,7 @@
 <?php
-class Projects{
+require_once "./vue/vue.class.php";
+
+class ctlProjects{
     private $projects;
     public function __construct() {
         $this->projects = new Projects();

@@ -1,5 +1,7 @@
 <?php
-class Legals{
+require_once "./vue/vue.class.php";
+
+class ctlLegals{
     private $legals;
     
     public function __construct() {
