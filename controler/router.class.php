@@ -2,6 +2,7 @@
 // require "config/config.php";
 
 require_once "ctl.index.php";
+
 require_once "ctl.projects.php";
 require_once "ctl.legals.php";
 require_once "ctl.privacy.php";
