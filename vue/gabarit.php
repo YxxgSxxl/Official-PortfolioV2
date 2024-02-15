@@ -25,19 +25,18 @@
 
 <body>
     <!-- Including the Header Component -->
-    <header>
-        <?php include 'components/header.php' ?>
-    </header>
+    <?php $header ?>
 
     <!-- Main Content -->
     <main>
-
+        <?php
+        $vue = new Vue($action);
+        $vue->__construct($action);
+        ?>
     </main>
 
     <!-- Including the Footer Component -->
-    <footer>
-        <?php include 'components/footer.php' ?>
-    </footer>
+    <? $footer ?>
 
 
 

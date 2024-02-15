@@ -42,8 +42,6 @@
 </head>
 
 <body>
-    <!-- Including the Header Component -->
-    <?php include '../components/header.php' ?>
 
     <!-- Main Content -->
     <main>
@@ -86,10 +84,7 @@
             <h2>Contact</h2>
         </section>
     </main>
-
-    <!-- Including the Footer Component -->
-    <?php include '../components/footer.php' ?>
-
+    
     <script src="../js/index.js"></script>
 </body>
 

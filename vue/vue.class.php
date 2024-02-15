@@ -9,7 +9,7 @@ class Vue
 
       public function afficher($data) {
         $title = TITREONGLET;
-    //    $titre = "";      // Le titre de la page est généré dans le fichierVue
+        $header = require "./components/header.php";
     
         extract($data);   // Extrait les valeurs du tableau associatif $data dans des variables
     

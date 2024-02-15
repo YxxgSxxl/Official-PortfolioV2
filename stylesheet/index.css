@@ -38,8 +38,6 @@ body {
     font-family: 'Michroma', Arial, Helvetica, sans-serif;
     background-color: var(--primary-bgcolor);
     color: var(--primary-textcolor);
-
-    position: relative;
 }
 
 h1 {
