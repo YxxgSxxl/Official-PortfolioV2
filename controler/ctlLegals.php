@@ -5,7 +5,7 @@ class ctlLegals{
     private $legals;
     
     public function __construct() {
-        $this->legals = new Legals();
+        $this->legals = new ctlLegals();
     }
     public function legals()
     {
