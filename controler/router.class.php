@@ -1,8 +1,6 @@
 <?php
 // require "config/config.php";
 
-require_once "ctl.index.php";
-
 require_once "ctl.projects.php";
 require_once "ctl.legals.php";
 require_once "ctl.privacy.php";
@@ -41,7 +39,7 @@ class Router
             } else {
                 header('Location: https://alexeckes.com/pages/home.php');
             }
-        } catch (Exception $e) {
+        } catch (Exception $e) {                                                      // Page d'erreur
             $this->error = $e->getMessage();
         }
     }
