@@ -1,7 +1,9 @@
 <footer>
     <div class="footer-container">
         <div class="footer-left">
-            <img src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo">
+            <a href="https://alexeckes.com">
+                <img src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo">
+            </a>
         </div>
         <div class="footer-links">
             <a href="https://alexeckes.com/index.php?page=legals">Mentions Légales</a>
