@@ -19,7 +19,7 @@
         <ul>
             <li><a href="https://alexeckes.com/">Accueil</a></li>
             <li><a href="#about">À propos</a></li>
-            <li><a href="https://alexeckes.com/moreprojects.html">Projets</a></li>
+            <li><a href="https://alexeckes.com/index.php?action=projects">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>

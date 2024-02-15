@@ -7,7 +7,7 @@
         </div>
         <div class="footer-links">
             <a href="https://alexeckes.com/index.php?action=legals">Mentions Légales</a>
-            <a href="https://alexeckes.com/pages/privacy.php">Politique de confidentialité</a>
+            <a href="https://alexeckes.com/index.php?action=privacy">Politique de confidentialité</a>
             <a href="https://alexeckes.com/sitemap.xml">Sitemap</a>
         </div>
         <div class="footer-right">

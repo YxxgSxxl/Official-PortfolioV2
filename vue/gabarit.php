@@ -16,22 +16,29 @@
     <meta name="msapplication-config" content="https://alexeckes.com/favicon/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <title><?=$title?></title>
+    <title>
+        <?= $title ?>
+    </title>
     <link rel="stylesheet" href="stylesheet/index.css">
     <link href=' https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <!-- Including the Header Component -->
-    <?php include 'components/header.php' ?>
+    <header>
+        <?php include 'components/header.php' ?>
+    </header>
 
     <!-- Main Content -->
     <main>
-        
+
     </main>
 
     <!-- Including the Footer Component -->
-    <?php include 'components/footer.php' ?>
+    <footer>
+        <?php include 'components/footer.php' ?>
+    </footer>
+
 
 
     <script src="../js/index.js"></script>
