@@ -29,8 +29,6 @@
             <h1>Soon...</h1>
         </section>
     </main>
-
-    <script src="js/index.js"></script>
 </body>
 
 </html>

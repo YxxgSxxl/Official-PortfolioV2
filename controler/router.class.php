@@ -21,8 +21,8 @@ class Router
     public function routerRequest()
     {
         try {
-            if (isset($_GET['page'])) {
-                switch ($_GET['page']) {
+            if (isset($_GET['action'])) {
+                switch ($_GET['action']) {
                     case 'projects':
                         $this->ctlProjects->projects();
                         break;

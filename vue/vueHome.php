@@ -84,8 +84,6 @@
             <h2>Contact</h2>
         </section>
     </main>
-    
-    <script src="./js/index.js"></script>
 </body>
 
 </html>

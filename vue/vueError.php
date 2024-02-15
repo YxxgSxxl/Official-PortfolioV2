@@ -29,8 +29,6 @@
             <?php   echo '<div class="erreur">Erreur : ' . $erreur . '</div>'; ?>
         </section>
     </main>
-
-    <script src="js/index.js"></script>
 </body>
 
 </html>

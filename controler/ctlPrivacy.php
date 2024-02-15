@@ -6,6 +6,8 @@ class ctlPrivacy{
 
     public function privacy()
     {
-        require '../pages/privacy.php';
+        $privacy = $this->privacy->privacy();
+        $privacy = new vue("Privacy");
+        $privacy->afficher(array("privacy" => $privacy));
     }
 }
