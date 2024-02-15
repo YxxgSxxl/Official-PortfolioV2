@@ -7,7 +7,7 @@ class ctlProjects{
     public function projects()
     {
         $projects = $this->projects->projects();
-        $projects = new vue("Projects");
-        $projects->afficher(array("projects" => $projects));
+        $vue = new vue("Projects");
+        $vue->afficher(array("projects" => $projects));
     }
 }
