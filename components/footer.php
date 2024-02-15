@@ -8,7 +8,7 @@
         <div class="footer-links">
             <a href="https://alexeckes.com/index.php?page=legals">Mentions Légales</a>
             <a href="https://alexeckes.com/pages/privacy.php">Politique de confidentialité</a>
-            <a href="https://alexeckes.com/sitemap.xml">Sitemaps</a>
+            <a href="https://alexeckes.com/sitemap.xml">Sitemap</a>
         </div>
         <div class="footer-right">
             <a href="https://github.com"><img loading="lazy" src="../img/icons/github.svg" alt="GitHub"></a>
