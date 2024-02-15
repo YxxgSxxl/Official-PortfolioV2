@@ -1,4 +1,4 @@
-<h1>New version of my Official Portfolio ✨</h1>
+<h1>New version of my Portfolio ✨</h1>
 
 <i>For this portfolio, I used these technologies:</i>
 
