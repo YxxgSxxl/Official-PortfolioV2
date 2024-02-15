@@ -40,7 +40,7 @@ class Router
             } else {
                 header('Location: ../index.php');
             }
-        } catch (Exception $e) {                                                      // Page d'erreur
+        } catch (Exception $e) {
             $this->error = $e->getMessage();
         }
     }
