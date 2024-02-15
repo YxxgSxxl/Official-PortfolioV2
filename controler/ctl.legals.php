@@ -1,5 +1,7 @@
 <?php
 class Legals{
+    private $legals;
+    
     public function __construct() {
         $this->legals = new Legals();
     }

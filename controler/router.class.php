@@ -38,7 +38,7 @@ class Router
                         throw new Exception("Unknown Error");
                 }
             } else {
-                header('Location: ../index.php');
+                header('Location: https://alexeckes.com/pages/home.php');
             }
         } catch (Exception $e) {
             $this->error = $e->getMessage();
