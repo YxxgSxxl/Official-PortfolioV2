@@ -23,7 +23,7 @@
             <li><a href="https://alexeckes.com/index.php">Accueil</a></li>
             <li><a href="https://alexeckes.com/index.php#about">À propos</a></li>
             <li><a href="https://alexeckes.com/index.php?action=projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://alexeckes.com/index.php#contact">Contact</a></li>
         </ul>
     </div>
     
