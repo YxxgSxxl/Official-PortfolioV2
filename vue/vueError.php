@@ -25,7 +25,7 @@
     <!-- Main Content -->
     <main>
         <section class="error-container">
-            <?php   echo '<div class="erreur">Erreur : ' . $erreur . '</div>'; ?>
+            <?php   echo '<div class="erreur">' . $error . '</div>'; ?>
         </section>
     </main>
 </body>
