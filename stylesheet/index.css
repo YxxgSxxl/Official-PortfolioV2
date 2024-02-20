@@ -31,7 +31,6 @@ body::-webkit-scrollbar-thumb:active {
     background-color: #4cc2d7;
 }
 
-
 /* Text selection */
 ::-moz-selection {
     color: var(--primary-selection);
