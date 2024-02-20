@@ -1,3 +1,6 @@
+<?php
+    null
+?>
 <!-- HEADER COMPONENT -->
 <header>    
     <div class="header-logo">

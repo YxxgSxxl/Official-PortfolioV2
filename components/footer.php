@@ -1,3 +1,6 @@
+<?php
+    null
+?>
 <footer>
     <div class="footer-container">
         <div class="footer-left">
