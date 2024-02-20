@@ -4,7 +4,7 @@
 <!-- HEADER COMPONENT -->
 <header>    
     <div class="header-logo">
-        <a href="https://alexeckes.com/">
+        <a href="https://alexeckes.com/index.php">
             <img loading="lazy" src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo Alex Eckes" />
         </a>
     </div>
@@ -20,8 +20,8 @@
             </svg>
         </button>
         <ul>
-            <li><a href="https://alexeckes.com/">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
+            <li><a href="https://alexeckes.com/index.php">Accueil</a></li>
+            <li><a href="https://alexeckes.com/index.php#about">À propos</a></li>
             <li><a href="https://alexeckes.com/index.php?action=projects">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
