@@ -412,6 +412,12 @@ footer small {
         color: var(--primary-textcolor);
     }
 
+    .footer-links a:hover {
+        text-decoration: underline;
+        text-decoration-color: #c6e2ff;
+        text-decoration-thickness: 0.1em;
+    }
+
     .footer-right {
         display: flex;
         flex-direction: column;
