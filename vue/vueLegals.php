@@ -1,3 +1,6 @@
+<?php
+    null
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
