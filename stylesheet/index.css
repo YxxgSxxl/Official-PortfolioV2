@@ -38,7 +38,7 @@ body {
     font-family: 'Michroma', Arial, Helvetica, sans-serif;
     background-color: var(--primary-bgcolor);
     color: var(--primary-textcolor);
-    
+
     position: relative;
 }
 
@@ -275,7 +275,7 @@ footer small {
         text-align: center;
         margin: 0 0 2rem 0;
     }
-    
+
     p {
         font-size: 1em;
     }
@@ -364,7 +364,7 @@ footer small {
     /* Footer */
     footer {
         background-color: var(--secondary-bgcolor);
-        padding: 1em 2em 1em 2em;
+        padding: 1em 3em 1em 3em;
         gap: 1rem;
         display: flex;
         flex-direction: column;
@@ -381,8 +381,8 @@ footer small {
         font-size: 0.8em;
         transform: translateX(10px);
     }
-    
-    
+
+
     .footer-container {
         display: flex;
         flex-direction: row;
@@ -418,6 +418,16 @@ footer small {
         align-items: center;
         gap: 1em;
         margin: 2rem 0 0 0;
+    }
+
+    footer img {
+        transition: 0.2s ease-out;
+    }
+
+    footer img:hover {
+        filter: invert(1);
+        /* or to blue */
+        filter: invert(28%) sepia(22%) saturate(383%) hue-rotate(155deg) brightness(93%) contrast(95%);
     }
 
     .footer-cr {

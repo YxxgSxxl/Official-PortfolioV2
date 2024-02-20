@@ -4,7 +4,7 @@
 <footer>
     <div class="footer-container">
         <div class="footer-left">
-            <a href="https://alexeckes.com">
+            <a href="https://alexeckes.com/index.php">
                 <img loading="lazy" src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo">
             </a>
         </div>

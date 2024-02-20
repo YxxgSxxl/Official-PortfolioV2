@@ -84,7 +84,7 @@
         </section>
 
         <section class="contact-container">
-            <h2>Contact</h2>
+            <h2 id="contact">Contact</h2>
         </section>
     </main>
 </body>
