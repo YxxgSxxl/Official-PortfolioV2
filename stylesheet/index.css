@@ -327,7 +327,7 @@ footer small {
         font-size: 2em;
         margin: 1em 0 1rem 0;
     }
-    
+
     h2 {
         text-align: center;
         margin: 0rem 0 2rem 0;
@@ -406,15 +406,47 @@ footer small {
     }
 
     /* About Section */
-    section.about-container {
-        height: 100vh;
-    }
-
     section.about-container p {
         margin: 0 auto 2em auto;
         letter-spacing: 1px;
         text-align: justify;
         width: 60%;
+    }
+
+    /* Projects Section */
+    section.projects-container {
+        height: 100vh;
+    }
+
+    /* Contact Section */
+    section.contact-container {
+        height: 100vh;
+    }
+
+    /* legals Section */
+    section.legals-container {
+        height: 100vh;
+    }
+
+    .legals-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25em;
+    }
+
+    .legals-texts {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .legals-texts h2 {
+        margin: 2rem 0 0 0;
+    }
+
+    /* privacy Section */
+    section.privacy-container {
+        height: 100vh;
     }
 
 
