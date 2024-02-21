@@ -31,9 +31,7 @@
     <?php $header ?>
 
     <!-- Main Content -->
-    <main>
-        <?= $contenu ?>
-    </main>
+    <?= $contenu ?>
 
     <!-- Including the Footer Component -->
     <? $footer ?>
