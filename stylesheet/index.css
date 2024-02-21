@@ -213,10 +213,14 @@ section.legals-container {
     gap: 0.25em;
 }
 
-.legals-texts  {
+.legals-texts {
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.legals-texts h2 {
+    margin: 2rem 0 0 0;
 }
 
 /* privacy Section */
