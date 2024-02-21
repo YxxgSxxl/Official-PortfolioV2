@@ -69,6 +69,16 @@ body {
 h1 {
     font-size: 1.5em;
     margin-bottom: 1rem;
+    text-align: start;
+    text-shadow:
+        0 0 2px #72a7c2,
+        0 0 5px #72a7c2,
+        0 0 10px #72a7c2,
+        0 0 20px #3d6579,
+        0 0 40px #3d6579,
+        0 0 60px #3d6579,
+        0 0 80px #3d6579,
+        0 0 100px #3d6579;
 }
 
 h2 {
@@ -194,6 +204,18 @@ section.contact-container {
 /* legals Section */
 section.legals-container {
     height: 100vh;
+}
+
+.legals-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.legals-texts  {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 /* privacy Section */
@@ -363,7 +385,7 @@ footer small {
     main {
         display: flex;
         flex-direction: column;
-        padding: 2em 6em 2em 6em;
+        padding: 4em 10em 2em 10em;
     }
 
     .emoji {

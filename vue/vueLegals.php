@@ -1,6 +1,6 @@
 <?php
-    null
-?>
+null
+    ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -29,11 +29,25 @@
     <!-- Main Content -->
     <main>
         <section class="legals-container">
-            <h1>Mentions Légales</h1>
+            <h1 style="text-align: center;">Mentions Légales</h1>
             <div class="legals-texts">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure molestias eius rem provident eligendi. Voluptates corporis rem labore culpa explicabo nulla debitis optio dolorum vitae vel! Impedit, corrupti eos!</p>
-                <p><strong>Propriétaire</strong> : Alex ECKES
-            </div>       
+                <h2 style="text-align: start;">Éditeur du Site:</h2>
+                <p>
+                    <strong>Site web personnel de Alex Eckes, particulier</strong>
+                <div class="legals-wrapper">
+                    <strong>Email:</strong> <a
+                        href="mailto:eckes.alex14@gmail.com?subject=Je vous contacte au sujet de ...&cc=?&bcc=?&body=Veuillez nous dire pourquoi vous nous contactez.">eckes.alex14@gmail.com</a>
+                </div>
+                <div class="legals-wrapper">
+                    <strong>Téléphone:</strong> 06 36 06 96 00
+                </div>
+                </p>
+
+                <h2 style="text-align: start;">Directeur de la publication:</h2>
+                <p>
+                    <strong></strong>
+                </p>
+            </div>
         </section>
     </main>
 </body>
