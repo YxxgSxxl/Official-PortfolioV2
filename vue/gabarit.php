@@ -36,8 +36,7 @@
     <!-- Including the Footer Component -->
     <? $footer ?>
 
-
-
+    
     <script src="./js/index.js"></script>
 </body>
 
