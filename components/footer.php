@@ -14,8 +14,8 @@
             <a href="https://alexeckes.com/sitemap.xml">Sitemap</a>
         </div>
         <div class="footer-right">
-            <a href="https://github.com"><img loading="lazy" src="../img/icons/github.svg" alt="GitHub"></a>
-            <a href="https://linkedin.com"><img loading="lazy" src="../img/icons/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/YxxgSxxl"><img loading="lazy" src="../img/icons/github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/alex-eckes/"><img loading="lazy" src="../img/icons/linkedin.svg" alt="LinkedIn"></a>
         </div>
     </div>
     <small class="footer-cr">&copy; 2024 Alex Eckes</small>
