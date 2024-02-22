@@ -204,13 +204,17 @@ section.contact-container {
 
 /* legals Section */
 section.legals-container {
-    min-height: 300vh;
+    min-height: 320vh;
 }
 
 .legals-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.25em;
+}
+
+.legals-wrapper p {
+    margin: 0.8rem 0 1.5rem 0;
 }
 
 .legals-texts {
@@ -426,7 +430,7 @@ footer small {
 
     /* legals Section */
     section.legals-container {
-        min-height: 300vh;
+        min-height: 260vh;
     }
 
     .legals-wrapper {
