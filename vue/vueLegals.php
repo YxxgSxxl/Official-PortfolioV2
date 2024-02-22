@@ -53,7 +53,7 @@ null
                 <h2 style="text-align: start;">Hébergement:</h2>
                 <p>
                     <div class="legals-wrapper">
-                        <strong></strong>
+                        <strong>Alex Eckes</strong>
                     </div>
                 </p>
             </div>

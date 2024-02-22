@@ -204,7 +204,7 @@ section.contact-container {
 
 /* legals Section */
 section.legals-container {
-    height: 100vh;
+    min-height: 300vh;
 }
 
 .legals-wrapper {
@@ -426,7 +426,7 @@ footer small {
 
     /* legals Section */
     section.legals-container {
-        height: 100vh;
+        min-height: 300vh;
     }
 
     .legals-wrapper {
