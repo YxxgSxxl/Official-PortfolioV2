@@ -431,7 +431,7 @@ footer small {
 
     .legals-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 0.25em;
     }
 
