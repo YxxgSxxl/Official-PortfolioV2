@@ -53,7 +53,8 @@ null
                 <h2 style="text-align: start;">Hébergement:</h2>
                 <p>
                     <div class="legals-wrapper">
-                        <strong>Alex Eckes</strong>
+                        <p>Le site est hébergé par IONOS SARL, dont le siège social est situé au 7 Place de la Gare, 57200 Sarreguemines, France.</p>
+                        <strong>Téléphone:</strong><p>0970 808 911</p>
                     </div>
                 </p>
             </div>

@@ -435,6 +435,14 @@ footer small {
         gap: 0.25em;
     }
 
+    .legals-wrapper p {
+        margin: 1.2rem 0 0.5rem 0;
+    }
+
+    .legals-wrapper strong {
+        margin: 1.5rem 0 0 0;
+    }
+
     .legals-texts {
         display: flex;
         flex-direction: column;
