@@ -45,7 +45,16 @@ null
 
                 <h2 style="text-align: start;">Directeur de la publication:</h2>
                 <p>
-                    <strong></strong>
+                    <div class="legals-wrapper">
+                        <strong>Alex Eckes</strong>
+                    </div>
+                </p>
+
+                <h2 style="text-align: start;">Hébergement:</h2>
+                <p>
+                    <div class="legals-wrapper">
+                        <strong>Alex Eckes</strong>
+                    </div>
                 </p>
             </div>
         </section>

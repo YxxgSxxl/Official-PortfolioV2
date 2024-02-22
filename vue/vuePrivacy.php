@@ -29,7 +29,7 @@
     <!-- Main Content -->
     <main>
         <section class="privacy-container">
-            <h1>Soon...</h1>
+            <h1>Politique de confidentialité</h1>
         </section>
     </main>
 </body>
