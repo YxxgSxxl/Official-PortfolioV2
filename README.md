@@ -7,7 +7,6 @@
 
 <h2>Deploying:</h2>
 <p align="left"> <a href="https://www.linux.org/" target="_blank" rel="noreferrer" title="Linux"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a target="_blank" rel="noreferrer" title="Bash"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer" title="Bash Commands"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash-commands" width="40" height="40"/> </a> <a href="https://www.debian.org/" target="_blank" rel="noreferrer" title="Debian13"> <img src="https://github.com/devicons/devicon/blob/master/icons/debian/debian-plain-wordmark.svg" alt="Debian13" width="40" height="40"/> <a href="https://httpd.apache.org/" target="_blank" rel="noreferrer" title="Apache2"> <img src="https://github.com/devicons/devicon/blob/master/icons/apache/apache-original-wordmark.svg" alt="apache2" width="40" height="40"/> </a> <a href="https://httpd.apache.org/" target="_blank" rel="noreferrer" title="Apache2"> </a> </p>
-<p>To set-up and secure my VPS, I used: swapfile, ufw, fail2ban, rkhunter, aide, apache2, certbot...</p>
 
 <h2>Versioning:</h2>
 <p align="left">
