@@ -1,5 +1,5 @@
 <?php
-require "config/config.php";
+null
 ?>
 
 <!-- FOOTER COMPONENT -->

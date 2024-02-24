@@ -8,6 +8,7 @@ class Vue
     }
 
       public function afficher($data) {
+        
         $title = TITREONGLET;
         
         extract($data);   // Extrait les valeurs du tableau associatif $data dans des variables
