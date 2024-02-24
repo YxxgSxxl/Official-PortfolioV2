@@ -30,16 +30,7 @@ null
                 la
                 conception de sites web.</p>
             <p>
-                Mon cursus en BUT MMI m'immerge dans le digital, m'aidant à développer des compétences variées
-                allant du
-                développement web à
-                la
-                création multimédia. Je cherche à fusionner ma passion pour la
-                musique
-                avec la technologie pour créer des expériences numériques captivantes. En quête de projets
-                innovants, je
-                suis prêt à explorer les nouvelles frontières du multimédia. Discutons de nos passions et
-                collaborons !
+
             </p>
         </div>
     </section>

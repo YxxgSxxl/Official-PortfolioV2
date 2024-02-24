@@ -36,7 +36,7 @@ class Router
                         break;
 
                     default:
-                        throw new Exception("Erreur interne : action non valide");
+                        throw new Exception("Erreur: action non valide");
                 }
             } else {
                 $this->ctlPage->home();

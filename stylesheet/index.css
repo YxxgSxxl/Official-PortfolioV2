@@ -217,6 +217,11 @@ section.home-container {
     width: 10rem;
 }
 
+/* Error Section */
+section.error-container {
+    min-height: 100vh;
+}
+
 /* About Section */
 section.about-container {
     height: 100vh;
