@@ -88,6 +88,7 @@ h2 {
 }
 
 p {
+    text-rendering: optimizeLegibility;
     font-size: 0.8em;
 }
 
@@ -187,9 +188,35 @@ section.home-container {
     height: 100vh;
 }
 
+.home-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.welcome-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-picture img {
+    box-shadow: 0 0 2px #72a7c2, 0 0 5px #72a7c2, 0 0 6px #72a7c2, 0 0 8px #3d6579, 0 0 10px #3d6579, 0 0 20px #3d6579, 0 0 30px #3d6579, 0 0 40px #3d6579;
+    border-radius: 50%;
+    width: 10rem;
+}
+
 /* About Section */
 section.about-container {
     height: 100vh;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 /* Projects Section */
@@ -408,6 +435,27 @@ footer small {
     /* Home Section */
     section.home-container {
         height: 100vh;
+    }
+
+    .home-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .home-one {
+        width: 60%;
+    }
+
+    a.welcome-picture {
+        padding: 4rem 0 1rem 0;
+    }
+
+    .welcome-picture img {
+        border-radius: 50%;
+        width: 15rem;
+        margin-top: 3rem;
     }
 
     /* About Section */

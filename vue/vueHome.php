@@ -1,6 +1,6 @@
 <?php
-    null
-?>
+null
+    ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -50,12 +50,22 @@
     <main>
         <section class="home-container">
             <div class="home-content">
-                <h1>Enchanté, moi c'est Alex.</h1>
-                <p>
-                    Un développeur amateur et passionné. Actuellement en BUT MMI à l'Université de Haute Alsace de
-                    Mulhouse.
-                </p>
+                <div class="home-one">
+                    <h1>Enchanté, moi c'est Alex.</h1>
+                    <p>
+                        Un développeur amateur et passionné. Actuellement en BUT MMI à l'Université de Haute Alsace de
+                        Mulhouse.
+                    </p>
+                </div>
+
+                <div class="home-two">
+                    <a class="welcome-picture" title="Mon profil Github" href="https://github.com/YxxgSxxl" target="_blank">
+                        <img src="https://avatars.githubusercontent.com/u/114391274?v=4" alt="">
+                    </a>
+                    <h2 style="margin-top: 30px; font-size: 1em;">Mon profil Github</h2>
+                </div>
             </div>
+
         </section>
         <section class="about-container">
             <div class="about-content">
