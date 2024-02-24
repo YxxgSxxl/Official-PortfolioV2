@@ -9,17 +9,19 @@ class Vue
 
       public function afficher($data) {
         $title = TITREONGLET;
-        $header = require "./components/header.php";
-    
+        
         extract($data);   // Extrait les valeurs du tableau associatif $data dans des variables
-    
+        
         ob_start();
-    
+        
+        $header = require "./components/header.php";
+        
         require $this->fichierVue;   // Génère le contenu de la page en fonction de l'action
-    
-        $contenu = ob_get_clean();
         
         $footer = require "./components/footer.php";
+
+        $contenu = ob_get_clean();
+        
       
         require "gabarit.php";
       }

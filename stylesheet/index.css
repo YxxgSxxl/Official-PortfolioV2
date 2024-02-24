@@ -59,11 +59,15 @@ html {
 
 /* MOBILE FIRST */
 body {
-    font-family: 'Michroma', Arial, Helvetica, sans-serif;
+    font-family: 'Michroma', 'Roboto Condensed', Arial, sans-serif;
     background-color: var(--primary-bgcolor);
     color: var(--primary-textcolor);
 
     position: relative;
+}
+
+strong {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 h1 {
@@ -82,14 +86,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     margin: 0 0 1rem 0;
 }
 
 p {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     text-rendering: optimizeLegibility;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 button {
@@ -194,6 +199,10 @@ section.home-container {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+}
+
+.home-content p {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 .welcome-picture {
@@ -443,6 +452,10 @@ footer small {
         flex-direction: row;
         align-items: center;
     }
+    
+    .home-content p {
+        font-family: 'Michroma', 'Roboto Condensed', Arial, sans-serif;
+    }
 
     .home-one {
         width: 60%;
@@ -455,7 +468,6 @@ footer small {
     .welcome-picture img {
         border-radius: 50%;
         width: 15rem;
-        margin-top: 3rem;
     }
 
     /* About Section */

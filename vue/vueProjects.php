@@ -32,6 +32,4 @@
             <h2>Projets</h2>
         </section>
     </main>
-</body>
-
-</html>
+    

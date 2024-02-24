@@ -1,19 +1,29 @@
 <?php
-    null
+    require_once 'config/config.php';
 ?>
+<!-- HTML DOCTYPE -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Metas -->
+<head>
+    <?php echo HEAD ?>
+</head>
+
+<body>
 <!-- HEADER COMPONENT -->
-<header>    
+<header>
     <div class="header-logo">
         <a href="https://alexeckes.com/index.php">
             <img loading="lazy" src="../img/logos/alex-eckes-header-logoV2-w.png" alt="Logo Alex Eckes" />
         </a>
     </div>
-    
+
     <!-- Header Menu -->
     <div class="header-menu">
         <button type="button" class="header-menuexit">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="15" y1="9" x2="9" y2="15"></line>
                 <line x1="9" y1="9" x2="15" y2="15"></line>
@@ -26,7 +36,7 @@
             <li><a href="https://alexeckes.com/index.php#contact">Contact</a></li>
         </ul>
     </div>
-    
+
     <button type="button" class="header-burgericon">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -37,3 +47,4 @@
     </button>
 </header>
 <!-- END HEADER COMPONENT -->
+
