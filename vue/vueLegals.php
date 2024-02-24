@@ -45,38 +45,52 @@ null
 
                 <h2 style="text-align: start;">Directeur de la publication:</h2>
                 <p>
-                    <div class="legals-wrapper">
-                        <strong>Alex Eckes</strong>
-                    </div>
+                <div class="legals-wrapper">
+                    <strong>Alex Eckes</strong>
+                </div>
                 </p>
 
                 <h2 style="text-align: start;">Hébergement:</h2>
                 <p>
-                    <div class="legals-wrapper">
-                        <p>Le site est hébergé par IONOS SARL, dont le siège social est situé au 7 Place de la Gare, 57200 Sarreguemines, France.</p>
-                        <strong>Téléphone:</strong><p>0970 808 911</p>
-                    </div>
+                <div class="legals-wrapper">
+                    <p>Le site est hébergé par IONOS SARL, dont le siège social est situé au 7 Place de la Gare, 57200
+                        Sarreguemines, France.</p>
+                    <strong>Téléphone:</strong>
+                    <p>0970 808 911</p>
+                </div>
                 </p>
                 <p>
-                    <div class="legals-wrapper">
-                        <strong>Propriété intellectuelle:</strong>
-                        <p>L'ensemble des contenus de ce site incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de l'éditeur du site à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.</p>
-                        <p>Le logo du site est protégé par des droits d'auteur. Les logos de GitHub et LinkedIn appartiennent à leurs entreprises respectives et sont utilisés ici sous leur autorisation implicite ou explicite, conformément à leurs directives d'utilisation.</p>
-                        <p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de Alex Eckes. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. </p>
-                        <p>Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur.</p>
-                    </div>
+                <div class="legals-wrapper">
+                    <h2 style="text-align: start;">Propriété intellectuelle:</h2>
+                    <p>L'ensemble des contenus de ce site incluant, de façon non limitative, les graphismes, images,
+                        textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la
+                        propriété exclusive de l'éditeur du site à l'exception des marques, logos ou contenus
+                        appartenant à d'autres sociétés partenaires ou auteurs.</p>
+                    <p>Le logo du site est protégé par des droits d'auteur. Les logos de GitHub et LinkedIn
+                        appartiennent à leurs entreprises respectives et sont utilisés ici sous leur autorisation
+                        implicite ou explicite, conformément à leurs directives d'utilisation.</p>
+                    <p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même
+                        partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit
+                        de Alex Eckes. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue
+                        une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété
+                        intellectuelle. </p>
+                    <p>Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité
+                        civile et pénale du contrefacteur.</p>
+                </div>
                 </p>
                 <p>
-                    <div class="legals-wrapper">
-                        <strong>Données personnelles:</strong>
-                        <p>Conformément à la réglementation en vigueur, ce site ne collecte aucune donnée personnelle.</p>
-                    </div>
+                <div class="legals-wrapper">
+                    <h2 style="text-align: start;">Données personnelles:</h2>
+                    <p>Conformément à la réglementation en vigueur, ce site ne collecte aucune donnée personnelle.
+                    </p>
+                </div>
                 </p>
                 <p>
-                    <div class="legals-wrapper">
-                        <strong>CNIL:</strong>
-                        <p>Le site n'étant pas déclaré à la CNIL puisqu'il ne recueille pas d'informations personnelles.</p>
-                    </div>
+                <div class="legals-wrapper">
+                    <h2 style="text-align: start;">CNIL:</h2>
+                    <p>Le site n'étant pas déclaré à la CNIL puisqu'il ne recueille pas d'informations personnelles.
+                    </p>
+                </div>
                 </p>
             </div>
         </section>
