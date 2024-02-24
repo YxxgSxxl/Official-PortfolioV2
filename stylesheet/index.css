@@ -243,6 +243,44 @@ section.contact-container {
     height: 100vh;
 }
 
+/* Contact Form Content */
+form.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#submit-button {
+    background-color: #324046;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: ease 0.4s;
+    border-radius: 25px;
+}
+
+#submit-button:hover {
+    background-color: #3d6579;
+}
+
+#contact-name,
+#contact-email,
+#contact-message {
+    width: 80%;
+    padding: 1em;
+    border: none;
+    border-radius: 25px;
+    background-color: #324046;
+    color: white;
+    font-size: 1em;
+}
+
 /* legals Section */
 section.legals-container {
     min-height: 320vh;
@@ -457,7 +495,7 @@ footer small {
         flex-direction: row;
         align-items: center;
     }
-    
+
     .home-content p {
         font-family: 'Michroma', 'Roboto Condensed', Arial, sans-serif;
     }
@@ -491,6 +529,22 @@ footer small {
     /* Contact Section */
     section.contact-container {
         height: 100vh;
+    }
+
+    /* Contact Form Content */
+    form.contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-message {
+        width: 50%;
     }
 
     /* legals Section */

@@ -39,6 +39,8 @@ define('HEAD', '
 <link rel="Canonical" href="https://alexeckes.com" />
 
 <title>Alex ECKES</title>
+
+<!-- STYLES INIT -->
 <link rel="stylesheet" href="../stylesheet/index.css">
 <link href=\'https://fonts.googleapis.com/css?family=Michroma\' rel=\'stylesheet\' type=\'text/css\'>
 <link rel="preconnect" href="https://fonts.googleapis.com">

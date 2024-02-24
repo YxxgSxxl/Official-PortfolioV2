@@ -41,5 +41,6 @@ null
 
     <section class="contact-container">
         <h2 id="contact">Contact</h2>
+        <?php include 'components/contactForm.php'; ?>
     </section>
 </main>
