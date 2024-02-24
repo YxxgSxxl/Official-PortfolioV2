@@ -70,6 +70,10 @@ strong {
     font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
+small {
+    text-align: center;
+}
+
 h1 {
     font-size: 1.5em;
     margin-bottom: 2rem;
@@ -241,6 +245,7 @@ section.projects-container {
 /* Contact Section */
 section.contact-container {
     height: 100vh;
+    text-align: center;
 }
 
 /* Contact Form Content */
