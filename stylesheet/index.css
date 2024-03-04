@@ -280,6 +280,7 @@ form.contact-form {
 
 #contact-name,
 #contact-email,
+#contact-subject,
 #contact-message {
     width: 80%;
     padding: 1em;
@@ -537,7 +538,7 @@ footer small {
 
     /* Contact Section */
     section.contact-container {
-        height: 100vh;
+        height: 150vh;
     }
 
     /* Contact Form Content */
@@ -552,6 +553,7 @@ footer small {
 
     #contact-name,
     #contact-email,
+    #contact-subject,
     #contact-message {
         width: 50%;
     }
