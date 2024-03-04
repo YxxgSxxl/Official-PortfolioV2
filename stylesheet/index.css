@@ -66,6 +66,10 @@ body {
     position: relative;
 }
 
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 strong {
     font-family: 'Roboto Condensed', Arial, sans-serif;
 }
