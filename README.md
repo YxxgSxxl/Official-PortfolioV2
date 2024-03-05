@@ -15,5 +15,5 @@
 
 <h2>Contact Form:</h2>
 <p align="left">
-  I used <a href="https://smtpjs.com/">smtp.js</a> and <a href="https://elasticemail.com/">Email API</a> from Elastic Email to make it, I also encrypted so that my SMTP creditentials are not visible by anyone looking at my code.
+  I used <a href="https://smtpjs.com/" target="_blank">smtp.js</a> and <a href="https://elasticemail.com/" target="_blank">Email API</a> from Elastic Email to make it, I also encrypted so that my SMTP creditentials are not visible by anyone looking at my code.
 </p>
