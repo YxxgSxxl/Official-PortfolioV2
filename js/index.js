@@ -31,19 +31,22 @@ function sendEmail() {
     const name = document.getElementById("contact-name").value;
     const email = document.getElementById("contact-email").value;
     const subject = document.getElementById("contact-subject").value;
-    const message = document.getElementById("contact-message").value;
+    const messageMail = document.getElementById("contact-message").value;
 
     Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "contact.eckesalex14@gmail.com",
-        Password: "B5B89BFF7B1733C5C2DBC029A1FA3EA0B556",
+        SecureToken : "6d3c734e-88ee-4294-afe1-06c6e9768930",
         To: 'contact.eckesalex14@gmail.com',
         From: "eckes.alex14@gmail.com",
-        Subject: "Mail: " + email + "Sujet: " + subject,
-        Body: message
+        Subject: "Email: " + email + " || Sujet: " + subject,
+        Body: messageMail
     }).then(
-        message => alert(message)
-    ).then(
-        console.log("Mail, envoyé avec succès !" + '\n', "Nom: " + name + '\n', "Prenom: " + email + '\n', "Sujet: " + subject + '\n', "Message: " + message)
-    );
+        message => {
+            if (message == "OK") {
+                alert("Email envoyé avec succès !");
+                console.log("Email, envoyé avec succès !" + '\n', "Nom: " + name + '\n', "Prenom: " + email + '\n', "Sujet: " + subject + '\n', "Message: " + messageMail);
+            } else {
+                alert("Erreur lors de l'envoi du mail !" + " Le message d'erreur est le suivant: " + message);
+                console.error("Erreur lors de l'envoi du mail !" + '\n', "Nom: " + name + '\n', "Prenom: " + email + '\n', "Sujet: " + subject + '\n', "Message: " + messageMail);
+            }
+        })
 }
