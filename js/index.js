@@ -26,7 +26,7 @@ for (let i = 0; i < menuTag.length; i++) {
     });
 }
 
-////////////////////////// CONTACT FORM MAILER //////////////////////////
+////////////////////////// CONTACT FORM MAILER SYSTEM //////////////////////////
 function sendEmail() {
     const name = document.getElementById("contact-name").value;
     const email = document.getElementById("contact-email").value;
@@ -36,8 +36,8 @@ function sendEmail() {
     Email.send({
         SecureToken : "6d3c734e-88ee-4294-afe1-06c6e9768930",
         To: 'contact.eckesalex14@gmail.com',
-        From: "eckes.alex14@gmail.com",
-        Subject: "Email: " + email + " || Sujet: " + subject,
+        From: 'eckes.alex14@gmail.com',
+        Subject: "Sujet: " + subject + " || Email: " + email + " || Nom: " + name,
         Body: messageMail
     }).then(
         message => {
