@@ -248,7 +248,7 @@ section.projects-container {
 
 /* Contact Section */
 section.contact-container {
-    height: 100vh;
+    height: 130vh;
     text-align: center;
 }
 
@@ -260,7 +260,7 @@ form.contact-form {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 
 #submit-button {
@@ -549,6 +549,7 @@ footer small {
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding-top: 1rem;
     }
 
     #contact-name,

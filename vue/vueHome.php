@@ -41,7 +41,7 @@ null
 
     <section class="contact-container">
         <h2 id="contact">Contact</h2>
-        <small>En cours de developpement !</small>
+        <small style="color: grey; margin: 0;">* <span style="font-size: 2em;">→</span> Obligatoire</small>
         <?php include 'components/contactForm.php'; ?>
     </section>
 </main>
