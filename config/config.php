@@ -51,4 +51,5 @@ define('HEAD', '
 define('SCRIPTS', '
 <!-- SCRIPTS INIT -->
 <script src="./js/index.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 ');

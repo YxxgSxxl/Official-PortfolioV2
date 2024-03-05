@@ -2,7 +2,7 @@
 null
     ?>
 
-<form class="contact-form" method="post" action="./components/sendMail.php">
+<form class="contact-form" onsubmit="sendEmail(); reset(); return false">
     <input type="text" placeholder="Nom *" name="name" id="contact-name" autocomplete="off" required>
     <input type="email" placeholder="Email *" name="email" id="contact-email" autocomplete="off" required>
     <input type="text" placeholder="Sujet *" name="subject" id="contact-subject" autocomplete="off" required>
