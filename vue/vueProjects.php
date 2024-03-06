@@ -4,9 +4,9 @@ null
 
 <!-- Main Content -->
 <main>
-    <section class="moreprojects-container">
+    <section class="projects-container">
         <h1>Mes Projets</h1>
-        <?php include 'components/projectsSample.php'; ?>
+        <?php include 'components/projects.php'; ?>
     </section>
 </main>
 

@@ -252,6 +252,10 @@ section.projects-container {
     margin-bottom: 5rem;
 }
 
+section.projects-container a {
+    text-decoration: none;
+}
+
 .project-container {
     display: flex;
     flex-direction: column;
@@ -619,6 +623,14 @@ footer small {
     /* Projects Section */
     section.projects-container {
         min-height: auto;
+    }
+
+    section.projects-container a:hover {
+        color: rgb(206, 255, 252);
+    }
+
+    section.projects-container a div.more-projects:hover {
+        color: rgb(206, 255, 252);
     }
 
     .project-container {

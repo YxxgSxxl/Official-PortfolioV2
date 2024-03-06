@@ -29,7 +29,7 @@ null
             <p>
                 Découvrez le code de mes projets opensource sur Github:
             </p>
-            <div class="home-two">
+            <div class="about-git">
                 <a class="welcome-picture" title="Mon profil Github" href="https://github.com/YxxgSxxl" target="_blank">
                     <img src="https://avatars.githubusercontent.com/u/114391274?v=4" alt="">
                 </a>
