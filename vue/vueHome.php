@@ -36,7 +36,7 @@ null
     </section>
 
     <section class="projects-container">
-        <h2>Projets</h2>
+        <h2 id="projects">Projets</h2>
             <?php include 'components/projectsSample.php'; ?>
     </section>
 

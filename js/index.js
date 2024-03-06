@@ -26,7 +26,7 @@ for (let i = 0; i < menuTag.length; i++) {
     });
 }
 
-////////////////////////// PROJECTS FETCH //////////////////////////
+////////////////////////// PROJECTS SECTION FETCH //////////////////////////
 let projectContainer = document.querySelector(".project-container");
 
 // Fetch function that dumps JSON format files and returnes it

@@ -13,8 +13,8 @@
     },
     {
         "link": "./projects/calculatrice/botdiscord.html",
-        "title": "Calculatrice Web",
-        "description": "Calculatrice Web entièrement fonctionnelle utilisant le gestionnaire d'évènement \"keydown\" de Javascript.",
-        "icons": "<div class='html-icon' title='HTML5'><embed src='img/icons/html5.svg' alt='HTML5 SVG' height='50px'></div><div class='css-icon' title='CSS3'><embed src='img/icons/css3.svg' alt='CSS3 SVG' height='50px'></div><div class='js-icon' title='JavaScript'><embed src='img/icons/javascript.svg' alt='JavaScript SVG' height='50px'></div>"
+        "title": "Bot Discord",
+        "description": "Bot discord conçu avec l'environnement NodeJS ainsi que la librairie Discord.JS (V14).",
+        "icons": "<div class='nodejs-icon' title='NodeJS'><embed src='img/icons/nodejs.svg' alt='NodeJS SVG' height='50px'></div><div class='discordjs-icon' title='Discord.JS'><embed src='img/icons/discordjs.svg' alt='DISCORD.JS SVG' height='50px'></div>"
     }
 ]
