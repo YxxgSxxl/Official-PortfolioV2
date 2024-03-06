@@ -4,7 +4,7 @@ class Vue
     private $fichierVue; 
 
     public function __construct($action) {
-        $this->fichierVue = "vue/vue".$action.".php";
+        $this->fichierVue = "./vue/vue".$action.".php";
     }
 
       public function afficher($data) {
