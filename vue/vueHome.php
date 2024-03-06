@@ -27,7 +27,7 @@ null
                 conception de sites web.
             </p>
             <p>
-                Découvrez le code de mes projets sur Github:
+                Découvrez le code de mes projets opensource sur Github:
             </p>
             <div class="home-two">
                 <a class="welcome-picture" title="Mon profil Github" href="https://github.com/YxxgSxxl" target="_blank">
@@ -46,7 +46,7 @@ null
     <section class="contact-container">
         <hgroup>
             <h2 id="contact">Contact</h2>
-            <h3>Vous voulez me contacter ?</h3>
+            <h3>Envie de me contacter ?</h3>
         </hgroup>
         <small style="color: grey; margin: 0;">* <span style="font-size: 2em;">→</span> Obligatoire</small>
         <?php include 'components/contactForm.php'; ?>
