@@ -10,4 +10,4 @@ null
     </section>
 </main>
 
-<script src="projects.js"></script>
+<script src="./js/projects.js"></script>
