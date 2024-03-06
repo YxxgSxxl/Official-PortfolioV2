@@ -3,11 +3,13 @@ null
     ?>
 
 <!-- Main Content -->
-<main>
-    <section class="projects-container">
+<main style="padding: 4rem 5rem 4rem 5rem;">
+    <section class="moreprojects-container">
         <h1>Mes Projets</h1>
-        <?php include 'components/projects.php'; ?>
+        <div class="moreproject-flex">
+            <?php include 'components/projects.php'; ?>
+        </div>
     </section>
 </main>
 
-<script src="./js/projects.js"></script>
+<script src="./js/moreprojects.js"></script>

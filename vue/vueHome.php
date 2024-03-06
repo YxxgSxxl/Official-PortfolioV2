@@ -61,3 +61,5 @@ null
         <?php include 'components/contactForm.php'; ?>
     </section>
 </main>
+
+<script src="./js/projects.js"></script>

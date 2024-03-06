@@ -1,5 +1,5 @@
-////////////////////////// PROJECTS SECTION FETCH //////////////////////////
-let projectContainer = document.querySelector(".project-container");
+////////////////////////// MORE PROJECTS SECTION FETCH //////////////////////////
+let moreprojectContainer = document.querySelector(".moreproject-container");
 
 // Fetch function that dumps JSON format files and returnes it
 function fetchData(path) {
@@ -13,7 +13,7 @@ function fetchData(path) {
 // Process the data of projects and display it in the HTML page
 function processData(projects) {
     projects.forEach(project => {
-        projectContainer.innerHTML += `
+        moreprojectContainer.innerHTML += `
         <button type="button" class="project-style">
         <a href="${project.link}" class="open-project">
             <h3>${project.title}</h3>
@@ -39,7 +39,7 @@ goFetch();
 
 // function that waits for the fetch to be done and then process the data to display it
 async function goFetch() {
-    let projects = await fetchData("./projects-data/projectsSample.json");
+    let projects = await fetchData("./projects-data/projects.json");
 
     processData(projects);
 }
