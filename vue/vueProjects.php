@@ -6,7 +6,8 @@ null
 <main style="padding: 4rem 5rem 4rem 5rem;">
     <section class="moreprojects-container">
         <h1>Mes Projets</h1>
-        <div class="moreproject-flex">
+        <small>De nouveaux projets arrivent...</small>
+        <div style="margin-top: 1rem;">
             <?php include 'components/projects.php'; ?>
         </div>
     </section>
