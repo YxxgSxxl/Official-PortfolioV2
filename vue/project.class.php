@@ -5,7 +5,7 @@ class Project
 
     public function __construct($project)
     {
-        $this->fichierProjet = "./vue/projects/portfoliov2/vue" . $project . ".php";
+        $this->fichierProjet = "./vue/projects/" . strtolower($project) . "/vue" . $project . ".php";
     }
 
     public function afficher($data)
