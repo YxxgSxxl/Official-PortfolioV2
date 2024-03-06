@@ -1,11 +1,12 @@
 <?php
 null
     ?>
-    
+
 <!-- Main Content -->
 <main>
-    <section class="projects-container">
-        <h2>Projets</h2>
+    <section class="moreprojects-container">
+        <h1>Mes Projets</h1>
+        <?php include 'components/projectsSample.php'; ?>
     </section>
 </main>
 

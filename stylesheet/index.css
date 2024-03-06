@@ -302,6 +302,12 @@ button.projects p {
     height: 40px;
 }
 
+/* More Projects Section */
+section.moreprojects-container {
+    min-height: auto;
+    margin-bottom: 15rem;
+}
+
 
 /* Contact Section */
 section.contact-container {
@@ -629,6 +635,12 @@ footer small {
 
     .open-project svg {
         cursor: pointer;
+    }
+
+    /* More Projects Section */
+    section.moreprojects-container {
+        min-height: auto;
+        margin-bottom: 15rem;
     }
 
     /* Contact Section */

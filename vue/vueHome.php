@@ -40,7 +40,16 @@ null
 
     <section class="projects-container">
         <h2 id="projects">Projets</h2>
+
         <?php include 'components/projectsSample.php'; ?>
+
+        <div class="more-projects">
+            <a href="https://alexeckes.com/index.php?action=projects">
+                <button type="button">
+                    Plus de projets
+                </button>
+            </a>
+        </div>
     </section>
 
     <section class="contact-container">
