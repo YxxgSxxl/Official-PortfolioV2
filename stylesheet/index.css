@@ -643,6 +643,11 @@ footer small {
         margin-bottom: 15rem;
     }
 
+    section.moreprojects-container h1 {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
     /* Contact Section */
     section.contact-container {
         height: 150vh;
