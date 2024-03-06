@@ -12,12 +12,8 @@ null
                     Mulhouse.
                 </p>
             </div>
-
             <div class="home-two">
-                <a class="welcome-picture" title="Mon profil Github" href="https://github.com/YxxgSxxl" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/114391274?v=4" alt="">
-                </a>
-                <h2 style="margin-top: 30px; font-size: 1em;">Mon profil Github</h2>
+
             </div>
         </div>
 
@@ -28,20 +24,30 @@ null
             <p>Je suis un développeur web basé à Mulhouse, France. Je suis passionné par l'informatique, le web et
                 la musique. J'ai une expérience dans le développement front-end et back-end, ainsi que dans
                 la
-                conception de sites web.</p>
-            <p>
-
+                conception de sites web.
             </p>
+            <p>
+                Découvrez le code de mes projets sur Github:
+            </p>
+            <div class="home-two">
+                <a class="welcome-picture" title="Mon profil Github" href="https://github.com/YxxgSxxl" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/114391274?v=4" alt="">
+                </a>
+                <h2 style="margin-top: 30px; font-size: 1em;">Mon profil Github</h2>
+            </div>
         </div>
     </section>
 
     <section class="projects-container">
         <h2 id="projects">Projets</h2>
-            <?php include 'components/projectsSample.php'; ?>
+        <?php include 'components/projectsSample.php'; ?>
     </section>
 
     <section class="contact-container">
-        <h2 id="contact">Contact</h2>
+        <hgroup>
+            <h2 id="contact">Contact</h2>
+            <h3>Vous voulez me contacter ?</h3>
+        </hgroup>
         <small style="color: grey; margin: 0;">* <span style="font-size: 2em;">→</span> Obligatoire</small>
         <?php include 'components/contactForm.php'; ?>
     </section>
