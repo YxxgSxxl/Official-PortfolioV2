@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "LCD7";
+    src: url(../fonts/AdvancedPixelLcd7-yGOq.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100vw;
+    height: 100vh;
+    background: rgb(57, 4, 56);
+    background: linear-gradient(45deg, rgba(57, 4, 56, 1) 0%, rgba(56, 125, 147, 1) 50%, rgba(45, 17, 99, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #dddddd;
+    box-shadow: #575757 1px 5px 1px 0px;
+    transition: ease 0.1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+button:active {
+    box-shadow: inset #5ac5ff 0px 5px 10px 0px;
+    transform: translateY(3px);
+}
+
+.calculatrice {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(#050505d8, #121212);
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ecran {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(203, 214, 224), rgb(195, 225, 237));
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    padding-top: 8px;
+    padding-right: 10px;
+    font-family: "LCD7";
+    font-size: 20px;
+    overflow: auto;
+}
+
+.touches {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 15px;
+    justify-content: center;
+}
+
+.bouton {
+    font-size: larger;
+}
+
+.reset {
+    background-color: #71df71;
+}
+
+.reset:hover {
+    background-color: #99f299;
+}
+
+.reset:active {
+    box-shadow: inset #5aa95a 0px 5px 10px 0px;
+}
+
+.egal {
+    width: 135px;
+    background-color: #89CFEF;
+}
+
+.egal:hover {
+    background-color: #a7e3ff;
+}
+
+.egal:active {
+    box-shadow: inset #7ca9be 0px 5px 10px 0px;
+}
+
+.retour {
+    background-color: #e5e5e5;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em 1em 0.3em;
+    border-radius: 10%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    cursor: pointer;
+    gap: 10px;
+
+    outline: 0px solid #ef14ea;
+    transition: outline 0.8s ease 5ms;
+    filter: opacity(80%);
+}
+
+.retour:hover {
+    outline: 5px solid #39a9bd;
+    filter: opacity(100%);
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1em;
+    }
+}
