@@ -15,4 +15,10 @@ class ctlProject{
         $vue = new project("Calculatrice");
         $vue->afficher(array());
     }
+
+    public function botdiscord()
+    {
+        $vue = new project("Botdiscord");
+        $vue->afficher(array());
+    }
 }

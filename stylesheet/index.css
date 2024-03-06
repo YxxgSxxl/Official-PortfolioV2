@@ -323,6 +323,11 @@ div.moreproject-container {
     gap: 1rem;
 }
 
+/* Every Project Section */
+section.project-container {
+    min-height: 100vh;
+}
+
 /* This section is displayed in the index START */
 .more-projects {
     display: flex;

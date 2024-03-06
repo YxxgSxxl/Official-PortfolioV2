@@ -52,15 +52,11 @@ class Router
                         break;
 
                     case '3':
-                        $this->ctlProject->calculatrice();
-                        break;
-
-                    case '4':
-                        $this->ctlProject->portfolioV2();
+                        $this->ctlProject->botdiscord();
                         break;
 
                     default:
-                        throw new Exception("Erreur: projet non valide");
+                        throw new Exception("Erreur: projet non existant");
                 }
             } else {
                 $this->ctlPage->home();
