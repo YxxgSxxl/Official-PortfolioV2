@@ -114,6 +114,11 @@ button {
     outline: inherit;
 }
 
+button a {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     background-color: #324046;
     display: flex;
@@ -243,8 +248,60 @@ section.about-container {
 
 /* Projects Section */
 section.projects-container {
-    height: 100vh;
+    min-height: auto;
+    margin-bottom: 5rem;
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-gap: 20px;
+}
+
+.project-style {
+    background-color: inherit;
+    border: solid 1px white;
+    border-radius: 4%;
+    overflow: hidden;
+    transition: ease 1s;
+    padding: 0.6em;
+    width: 100%;
+    box-shadow:
+        0 0 4px #fff,
+        inset 0 0 4px #fff,
+        0 0 4px #c6e2ff,
+        inset 0 0 4px #c6e2ff,
+        0 0 8px #c6e2ff,
+        inset 0 0 8px #c6e2ff;
+}
+
+button.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button.projects p {
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+.project-icons {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 0 1em 0 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icons embed {
+    height: 40px;
+}
+
 
 /* Contact Section */
 section.contact-container {
@@ -533,7 +590,41 @@ footer small {
 
     /* Projects Section */
     section.projects-container {
-        height: 100vh;
+        min-height: auto;
+    }
+
+    button.projects p {
+        font-size: 1rem;
+    }
+
+    .project-style {
+        border-radius: 0%;
+        width: 60%;
+    }
+
+    .project-container {
+        align-items: center;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        cursor: default;
+    }
+
+    .project-icons embed {
+        height: 50px;
+    }
+
+    .open-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .open-project svg {
+        cursor: pointer;
     }
 
     /* Contact Section */
