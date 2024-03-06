@@ -43,13 +43,13 @@ null
 
         <?php include 'components/projectsSample.php'; ?>
 
-        <div class="more-projects">
-            <a href="https://alexeckes.com/index.php?action=projects">
+        <a href="https://alexeckes.com/index.php?action=projects">
+            <div class="more-projects">
                 <button type="button">
                     Plus de projets
                 </button>
-            </a>
-        </div>
+            </div>
+        </a>
     </section>
 
     <section class="contact-container">

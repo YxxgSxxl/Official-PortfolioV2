@@ -308,6 +308,28 @@ section.moreprojects-container {
     margin-bottom: 15rem;
 }
 
+/* This section is displayed in the index START */
+.more-projects {
+    display: flex;
+    justify-content: center;
+    border: solid 1px white;
+    width: fit-content;
+    padding: 2%;
+    box-shadow:
+        0 0 4px #fff,
+        inset 0 0 4px #fff,
+        0 0 4px #c6e2ff,
+        inset 0 0 4px #c6e2ff,
+        0 0 8px #c6e2ff,
+        inset 0 0 8px #c6e2ff;
+}
+
+a .more-projects {
+    color: white;
+    margin: 1.2rem auto;
+}
+/* This section is displayed in the index END */
+
 
 /* Contact Section */
 section.contact-container {
@@ -491,7 +513,7 @@ footer small {
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     section {
@@ -646,6 +668,22 @@ footer small {
     section.moreprojects-container h1 {
         margin-bottom: 3rem;
         text-align: center;
+    }
+
+    a .more-projects {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        width: fit-content;
+        margin: 2rem auto;
+    }
+
+    .more-projects button {
+        cursor: pointer;
+    }
+
+    .more-projects {
+        cursor: pointer;
     }
 
     /* Contact Section */
