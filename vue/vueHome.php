@@ -37,9 +37,7 @@ null
 
     <section class="projects-container">
         <h2>Projets</h2>
-        <div class="projects-grid">
             <?php include 'components/projectsSample.php'; ?>
-        </div>
     </section>
 
     <section class="contact-container">
