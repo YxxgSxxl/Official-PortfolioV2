@@ -119,6 +119,18 @@ button a {
     text-decoration: none;
 }
 
+.links-highlight {
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+    background-color: #3c4c54;
+    transition: 0.6s ease;
+}
+
+.links-highlight:hover {
+    color: rgb(210, 255, 251);
+    background-color: #496e81;
+}
+
 /* Div that contains the a tag */
 .btn-adapt {
     width: fit-content;
@@ -336,7 +348,7 @@ section.project-content {
     gap: 1rem;
 }
 
-section.project-content button{
+section.project-content button {
     align-items: center;
     text-align: center;
     margin-right: auto;
@@ -363,6 +375,7 @@ a .more-projects {
     color: white;
     margin: 1.2rem auto;
 }
+
 /* This section is displayed in the index END */
 
 
