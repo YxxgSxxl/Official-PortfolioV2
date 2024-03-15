@@ -56,7 +56,7 @@ class Router
                         break;
 
                     default:
-                        throw new Exception("Erreur: projet non existant");
+                        throw new Exception("Erreur 404: Projet non existant");
                 }
             } else {
                 $this->ctlPage->home();
